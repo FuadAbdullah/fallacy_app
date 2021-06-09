@@ -11,6 +11,8 @@ void main() {
 }
 
 class FallacyApp extends StatelessWidget {
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -171,7 +173,7 @@ class _FallacyCodeState extends State<FallacyCode> {
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 20,
+                              fontSize: 24,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
